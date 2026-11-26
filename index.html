@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudy Luz Quispe Sucasaca</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            background-color:#e6f2ff;
+            font-family:Arial, sans-serif;
+            color:#1a3d5c;
+        }
+
+        header{
+            background:#2b78b8;
+            color:white;
+            text-align:center;
+            padding:30px 15px;
+            position:relative;
+            overflow:hidden;
+        }
+        .estrella{
+            position:absolute;
+            color:#ffdd44;
+            font-size:20px;
+            animation:brillar 1.5s infinite alternate;
+        }
+        @keyframes brillar{
+            0%{opacity:0.3; transform:scale(0.8)}
+            100%{opacity:1; transform:scale(1.2)}
+        }
+
+        nav{
+            background:#ffffff;
+            box-shadow:0 2px 6px #b3d4eb;
+            padding:12px;
+            text-align:center;
+        }
+        nav a{
+            color:#2b78b8;
+            text-decoration:none;
+            font-weight:bold;
+            margin:0 12px;
+        }
+        nav a:hover{
+            color:#164b75;
+        }
+
+        .contenedor{
+            max-width:800px;
+            margin:30px auto;
+            padding:0 20px;
+        }
+        section{
+            background:white;
+            padding:25px;
+            border-radius:12px;
+            margin-bottom:20px;
+            box-shadow:0 3px 8px #c6e0f0;
+        }
+        h2{
+            color:#2b78b8;
+            margin-bottom:15px;
+        }
+
+        .chica-animada{
+            width:180px;
+            display:block;
+            margin:15px auto;
+            animation:salto 1.2s infinite alternate;
+        }
+        @keyframes salto{
+            0%{transform:translateY(0px)}
+            100%{transform:translateY(-12px)}
+        }
+
+        .curso{
+            background:#f0f7ff;
+            padding:12px;
+            margin:10px 0;
+            border-left:4px solid #2b78b8;
+            border-radius:6px;
+        }
+        a{
+            color:#2b78b8;
+            text-decoration:none;
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            color:#447799;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <span class="estrella" style="top:10%; left:8%">★</span>
+    <span class="estrella" style="top:20%; left:25%">★</span>
+    <span class="estrella" style="top:8%; left:50%">★</span>
+    <span class="estrella" style="top:22%; left:70%">★</span>
+    <span class="estrella" style="top:12%; left:90%">★</span>
+    <h1>✨ Rudy Luz Quispe Sucasaca ✨</h1>
+    <p>Estudiante de Contabilidad</p>
+</header>
+
+<nav>
+    <a href="#sobre-mi">Sobre Mí</a>
+    <a href="#cursos">Cursos y Profesores</a>
+    <a href="#compañeros">Compañeros</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="contenedor">
+    <section id="sobre-mi">
+        <h2>👤 Sobre Mí</h2>
+        <img class="chica-animada" src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="chica estudiante">
+        <p>Soy una estudiante comprometida, responsable y organizada. Tengo mucho interés en aprender y desarrollar mis conocimientos en el área de Contabilidad.</p>
+        <br>
+        <p>💼 <strong>Mi LinkedIn:</strong> <a href="AQUÍ-TU-ENLACE-LINKEDIN" target="_blank">Shady Lidia Lopez Hachata</a></p>
+    </section>
+
+    <section id="cursos">
+        <h2>📚 Mis 7 Cursos y Profesores</h2>
+
+        <div class="curso">
+            <strong>1. Contabilidad 3</strong>
+            <p>Profesora: Giovanna M. García Jarufe</p>
+            <p>💼 LinkedIn: <a href="ENLACE-PROFESORA1" target="_blank">Perfil</a></p>
+        </div>
+
+        <div class="curso">
+            <strong>2. Introducción a la Computación</strong>
+            <p>Profesor: Ernesto Cuadros Vargas</p>
+            <p>💼 LinkedIn: <a href="ENLACE-PROFESOR2" target="_blank">Perfil</a></p>
+        </div>
+
+        <div class="curso">
+            <strong>3. Liderazgo</strong>
+            <p>Profesora: Claudia Calisaya Carpio</p>
+            <p>💼 LinkedIn: <a href="ENLACE-PROFESORA3" target="_blank">Perfil</a></p>
+        </div>
+
+        <div class="curso">
+            <strong>4. Nombre del curso 4</strong>
+            <p>Profesor/a: Nombre del docente</p>
+            <p>💼 LinkedIn: <a href="ENLACE-PROFESOR4" target="_blank">Perfil</a></p>
+        </div>
+
+        <div class="curso">
+            <strong>5. Nombre del curso 5</strong>
+            <p>Profesor/a: Nombre del docente</p>
+            <p>💼 LinkedIn: <a href="ENLACE-PROFESOR5" target="_blank">Perfil</a></p>
+        </div>
+
+        <div class="curso">
+            <strong>6. Nombre del curso 6</strong>
+            <p>Profesor/a: Nombre del docente</p>
+            <p>💼 LinkedIn: <a href="ENLACE-PROFESOR6" target="_blank">Perfil</a></p>
+        </div>
+
+        <div class="curso">
+            <strong>7. Nombre del curso 7</strong>
+            <p>Profesor/a: Nombre del docente</p>
+            <p>💼 LinkedIn: <a href="ENLACE-PROFESOR7" target="_blank">Perfil</a></p>
+        </div>
+    </section>
+
+    <section id="compañeros">
+        <h2>👥 Páginas de mis 5 compañeros</h2>
+        <p>🔗 <a href="ENLACE-COMPAÑERO1" target="_blank">Compañero 1</a></p>
+        <p>🔗 <a href="ENLACE-COMPAÑERO2" target="_blank">Compañero 2</a></p>
+        <p>🔗 <a href="ENLACE-COMPAÑERO3" target="_blank">Compañero 3</a></p>
+        <p>🔗 <a href="ENLACE-COMPAÑERO4" target="_blank">Compañero 4</a></p>
+        <p>🔗 <a href="ENLACE-COMPAÑERO5" target="_blank">Compañero 5</a></p>
+    </section>
+
+    <section id="contacto">
+        <h2>📩 Contacto</h2>
+        <p>📧 Correo: Rudy Luz Quispe Sucasaca</p>
+        <p>📍 Ubicación: Arequipa, Perú</p>
+        <p>💼 LinkedIn: <a href="AQUÍ-TU-ENLACE-LINKEDIN" target="_blank">Rudy Luz Quispe Sucasaca</a></p>
+    </section>
+</div>
+
+<footer>
+    © 2026 Rudy Luz Quispe Sucasaca 💙
+</footer>
+
+</body>
+</html>
